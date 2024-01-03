@@ -1,0 +1,42 @@
+OPERADORES LOGICOS
+permiten conjugar dos o mas condiciones en una funcion para resolver un problema.
+
+&& AND O Y
+Este operador permite conjugar dos o mas condiciones y todas deben ser correctas y devolvera true si alguna no lo es devuelve false
+
+|| OR Y O
+Este operador permite conjugar dos o mas condiciones pero con solo una que sea correcta , devolvera true.
+
+! NOT O NO
+Este operador invierte el resultado en una condicion o transforma una valor en su opuesto y solo si esa no es correcta ahi se ejecuta.
+
+Estos operadores se pueden mezclar
+
+pero ahi juega la precedencia donde || precede sobre el && 
+y ! precede sobre ||
+
+
+BUCLES
+nos permiten realiar acciones que son de caracter repetitivo de manera sencilla 
+
+
+Diferencias entre for y while
+
+for -> se utiliza cuando sabemos la cantidad maxima exacta de pasos que queremos ejecutar
+esa cantidad maxima de pasos se situa en el segundo parametro del bucle en la condicion.
+
+la declaracion continue nos permite omitir alguna de las iteracion si se cumple una conducion especifica.
+
+la declaracion break nos permite romper o finalizar el bucle con antelacion si se cumple una condicion especifica.
+
+
+
+while -> es usado cuando no sabemos con certeza cuantos pasos necesitaremos hasta finalizar la ejecucion.
+
+do while (hacer mientras) -> ejecuta una sentencia especificada, hasta que la condicion de comprobacion se evalua como falsa. La condicion se evalua despues de ejecutar la sentencia, dando como resultado que la sentencia especificada se ejecute al menos una vez.
+
+
+
+
+Switch esta evalua una condicion y compara su valor con una instancia case y ejecua declaraciones asociadas a ese case asi como las declaraciones en los case.
+
